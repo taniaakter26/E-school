@@ -266,8 +266,15 @@ a, a:hover{
     letter-spacing: 3px;
     color: #fff;
 }
+.footer .col-lg-2{
+ color: white;
+ padding-bottom: 210px;
+}
 .footer .col-lg-3{
  color: white;
- 
+ padding-bottom: 210px;
+}
+.footer .col-lg-5{
+ color: white;
  padding-bottom: 210px;
 }
