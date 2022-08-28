@@ -266,3 +266,8 @@ a, a:hover{
     letter-spacing: 3px;
     color: #fff;
 }
+.footer .col-lg-3{
+ color: white;
+ 
+ padding-bottom: 210px;
+}
