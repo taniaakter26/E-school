@@ -108,7 +108,7 @@ a, a:hover{
 	width: 100%;
 	padding: 40px 0px;
 	text-align: center;
-	background: #e9edf5;
+	background: #F8FFFB;
 	border-radius: 15px;
 
  
@@ -218,68 +218,230 @@ a, a:hover{
 }
 .testimonial{
 	width: 100%;
-	padding: 40px 0px 90px;
+	padding: 80px 0px; 
 }
-.testimonial h2{
+.testimonial h1{
 	font-size: 48px;
-    line-height: 58px;
-    font-weight: 700;
-    text-align: center;
-    margin: 40px 0px 38px
-}	
-
-.testimonial .img-fluid {
-    width: 137px;
-    margin-left: 122px;
+	line-height: 58px;
+	font-weight: 700;
+	color: #413960;
+	text-align: center;
+	margin: 0px 0px 80px;
 }
-
+.testimonial .img-fluid {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+}
 .testimonial p{
-    font-family: Poppins;
     font-size: 16px;
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0em;
-    text-align: left;
-    padding-top: 23px;
-
+    line-height: 26px;
+    color: #000;
 }
 .footer{
 	width: 100%;
-	padding: 80px 0px;
+	padding: 80px 0px 30px;
     background: #282531;
-    height: 600px;
-
 }
-.footer p {
-    font-size: 14px;
-    line-height: 24px;
-    font-weight: 400;
-    color: #f0f0f0;
+.inner-text{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #fff;
+}
+.footer h4{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 700;
+	color: #fff;
+	margin: 0px;
+}
+.footer .widget{
+    display: block;
+    padding: 0px;
+}
+.footer .widget li{
+	list-style: none;
+	display: block;
+}
+.footer .widget li a{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 500;
+	color: #fff;
+	
+}
+.footer .widget li a:hover, .footer .widget li a:focus{
+	font-weight: 700;
+	transition: 1s;
+}
+.footer .copyright{
+	padding: 40px 0px 0px; 
+	font-size: 16px;
+	line-height: 26px;
+	color: #fff;
+	text-align: center; 
+}
+
+/* responsive css code start */
+@media (min-width: 279px) and (max-width: 319px) {
+/*code starts*/
+	.inner-banner h2{
+		font-size: 32px;
+		line-height: 42px;
+	}
+	.inner-banner p{
+		font-size: 12px;
+		margin: 15px 0px;
+	}
+	.inner-feature{
+		margin: 0px 0px 20px; 
+	}
+	.online-course .card{
+		margin: 0px 0px 20px;
+	}
+	.online-course h1{
+		font-size: 38px;
+	}
+	.testimonial{
+		padding: 0px 0px 20px;
+	}
+	.testimonial h1{
+		font-size: 38px;
+		margin: 0px 0px 40px;
+	}
+	.testimonial .img-fluid{
+		width:100px;
+		height: 100px;
+		margin-left: 81px;
+        margin-bottom: 26px;
+	}
+	.testimonial p{
+		text-align: justify;
+		text-indent: 30px;
+	}
+	.footer .inner-text{
+	    text-align: center;
+	}
+	.footer h4{
+		text-align: center;
+        padding: 5px 0px;
+	}
+	.footer .widget li{
+		text-align: center;
+
+	}
+
+/*code end*/
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+/*code starts*/
+	.inner-banner h2{
+		font-size: 32px;
+		line-height: 42px;
+	}
+	.inner-banner p{
+		font-size: 12px;
+		margin: 15px 0px;
+	}
+	.inner-feature{
+		margin: 0px 0px 20px; 
+	}
+	.online-course .card{
+		margin: 0px 0px 20px;
+	}
+	.online-course h1{
+		font-size: 38px;
+	}
+	.testimonial{
+		padding: 0px 0px 20px;
+	}
+	.testimonial h1{
+		font-size: 38px;
+		margin: 0px 0px 40px;
+	}
+	.testimonial .img-fluid{
+		width:100px;
+		height: 100px;
+		margin-left: 143px;
+        margin-bottom: 26px;
+	}
+	.testimonial p{
+		text-align: justify;
+		text-indent: 46px;
+	}
+	.footer .inner-text{
+	    text-align: center;
+	}
+	.footer h4{
+		text-align: center;
+        padding: 5px 0px;
+	}
+	.footer .widget li{
+		text-align: center;
+
+	}
+/*code end*/
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+/*code starts*/
+	.inner-banner h2{
+		font-size: 32px;
+		line-height: 42px;
+	}
+	.inner-banner p{
+		font-size: 12px;
+		margin: 15px 0px;
+	}
+	.inner-feature{
+		margin: 0px 0px 20px; 
+	}
+	.online-course .card{
+		margin: 0px 0px 20px;
+	}
+	.online-course h1{
+		font-size: 50px;
+	}
+	.testimonial{
+		padding: 0px 0px 20px;
+	}
+	.testimonial h1{
+		font-size: 50px;
+		margin: 0px 0px 40px;
+	}
+	.testimonial .img-fluid{
+        width: 120px;
+	    height: 120px;
+	    margin-left: 175px;
+	    margin-bottom: 26px;
+	}
+	.testimonial p{
+		text-align: justify;
+		text-indent: 30px;
+	}
+	.footer .inner-text{
+	    text-align: center;
+	}
+	.footer h4{
+		text-align: center;
+        padding: 5px 0px;
+	}
+	.footer .widget li{
+		text-align: center;
+
+	}
+
+/*code end*/
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+/* code starts */
+.inner-text{
+	font-size: 24px;
+    line-height: 36px;
+    padding-bottom: 32px;
     text-align: center;
-    padding-bottom: 0px; 
 }
-.footer p a {
-    font-weight: 700;
-    letter-spacing: 3px;
-    color: #fff;
+/* code end */
 }
-.footer .col-lg-2{
- color: white;
- padding-bottom: 210px;
-}
-.footer .col-lg-3{
- color: white;
- padding-bottom: 210px;
-}
-
-.footer .col-lg-5{
- color: white;
- padding-bottom: 210px;
-}
-.footer .course{
-	padding-left: 18px;
-    color: floralwhite;
-
-}
-
-
