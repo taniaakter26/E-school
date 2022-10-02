@@ -22,6 +22,10 @@ a, a:hover{
     background: #F0FFF0;
 
 }
+.header .fixed-top{
+	background: #F0FFF0;
+
+}
 .header .navbar-nav .nav-item .nav-link {
     margin: 0px 15px 0px 15px;
     font-size: 14px;
@@ -51,11 +55,11 @@ a, a:hover{
 }
 
 /* banner code start */
-.banner{
+.header .banner{
 	width: 100%;
-	padding: 40px 0px;
+	padding: 132px 0px 40px;
 }
-.inner-banner{
+.header .inner-banner{
 	width: 100%;
 	padding: 40px 0px;
 }
@@ -281,167 +285,4 @@ a, a:hover{
 	line-height: 24px;
 	color: #fff;
 	text-align: center; 
-}
-
-/* responsive css code start */
-@media (min-width: 279px) and (max-width: 319px) {
-/*code starts*/
-	.inner-banner h2{
-		font-size: 32px;
-		line-height: 42px;
-	}
-	.inner-banner p{
-		font-size: 12px;
-		margin: 15px 0px;
-	}
-	.inner-feature{
-		margin: 0px 0px 20px; 
-	}
-	.online-course .card{
-		margin: 0px 0px 20px;
-	}
-	.online-course h1{
-		font-size: 38px;
-	}
-	.testimonial{
-		padding: 0px 0px 20px;
-	}
-	.testimonial h1{
-		font-size: 38px;
-		margin: 0px 0px 40px;
-	}
-	.testimonial .img-fluid{
-		width:100px;
-		height: 100px;
-		margin-left: 81px;
-        margin-bottom: 26px;
-	}
-	.testimonial p{
-		text-align: justify;
-		text-indent: 30px;
-	}
-	.footer .inner-text{
-	    text-align: center;
-	}
-	.footer h4{
-		text-align: center;
-        padding: 5px 0px;
-	}
-	.footer .widget li{
-		text-align: center;
-
-	}
-
-/*code end*/
-}
-
-@media (min-width: 320px) and (max-width: 480px) {
-/*code starts*/
-	.inner-banner h2{
-		font-size: 32px;
-		line-height: 42px;
-	}
-	.inner-banner p{
-		font-size: 12px;
-		margin: 15px 0px;
-	}
-	.inner-feature{
-		margin: 0px 0px 20px; 
-	}
-	.online-course .card{
-		margin: 0px 0px 20px;
-	}
-	.online-course h1{
-		font-size: 38px;
-	}
-	.testimonial{
-		padding: 0px 0px 20px;
-	}
-	.testimonial h1{
-		font-size: 38px;
-		margin: 0px 0px 40px;
-	}
-	.testimonial .img-fluid{
-		width:100px;
-		height: 100px;
-		margin-left: 143px;
-        margin-bottom: 26px;
-	}
-	.testimonial p{
-		text-align: justify;
-		text-indent: 46px;
-	}
-	.footer .inner-text{
-	    text-align: center;
-	}
-	.footer h4{
-		text-align: center;
-        padding: 5px 0px;
-	}
-	.footer .widget li{
-		text-align: center;
-
-	}
-/*code end*/
-}
-
-@media (min-width: 481px) and (max-width: 767px) {
-/*code starts*/
-	.inner-banner h2{
-		font-size: 32px;
-		line-height: 42px;
-	}
-	.inner-banner p{
-		font-size: 12px;
-		margin: 15px 0px;
-	}
-	.inner-feature{
-		margin: 0px 0px 20px; 
-	}
-	.online-course .card{
-		margin: 0px 0px 20px;
-	}
-	.online-course h1{
-		font-size: 50px;
-	}
-	.testimonial{
-		padding: 0px 0px 20px;
-	}
-	.testimonial h1{
-		font-size: 50px;
-		margin: 0px 0px 40px;
-	}
-	.testimonial .img-fluid{
-        width: 120px;
-	    height: 120px;
-	    margin-left: 175px;
-	    margin-bottom: 26px;
-	}
-	.testimonial p{
-		text-align: justify;
-		text-indent: 30px;
-	}
-	.footer .inner-text{
-	    text-align: center;
-	}
-	.footer h4{
-		text-align: center;
-        padding: 5px 0px;
-	}
-	.footer .widget li{
-		text-align: center;
-
-	}
-
-/*code end*/
-}
-@media (min-width: 768px) and (max-width: 1024px) {
-/* code starts */
-.inner-text{
-	font-size: 24px;
-    line-height: 36px;
-    padding-bottom: 32px;
-    text-align: center;
-}
-/* code end */
 }
