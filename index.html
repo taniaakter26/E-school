@@ -4,43 +4,46 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>E-School | Home</title>
-<!-- bootstrap.min.css linking here -->
+    <!-- bootstrap.min.css linking here -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" >
-
-<!-- style.css linking here -->
+    <!-- style.css linking here -->
     <link rel="stylesheet" href="css/style.css">
-
-<!-- google fonts linking here -->
+    <!-- responsive.css linking here -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- wow-js animate.css linking here -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- animate.css linking here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- google fonts linking here -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   </head>
   <body>
-<!-- bootstrap.bundle.min.js linking here -->
+    <!-- bootstrap.bundle.min.js linking here -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
-
-<!-- header starts here -->
+    <!-- header starts here -->
     <header class="header">
-    <!-- nav starts here -->
-      <nav class="navbar navbar-expand-lg">
-        <div class="container">
+      <!-- nav starts here -->
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container fluid">
           <a class="navbar-brand" href="index.html">
             <img src="images/logo.png" alt="logo">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Books</a>
+                <a class="nav-link active" aria-current="page" href="#books">Books</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Courses</a>
+                <a class="nav-link" href="#courses">Courses</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Others</a>
+                <a class="nav-link" href="#others">Others</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link" href="#blogs">Blog</a>
               </li>
               <li class="nav-item">
                 <a class="btn btn-success" href="#">Sign in</a>
@@ -49,9 +52,8 @@
           </div>
         </div>
       </nav>
-    <!-- Nav ends -->
-
-    <!-- Banner starts here -->
+      <!-- Nav ends -->
+      <!-- Banner starts here -->
       <div class="banner">
         <div class="container">
           <div class="row">
@@ -60,7 +62,7 @@
                 <h6>Are you ready to learn?</h6>
                 <h2>Learn with fun <br>on <span>any schedule</span></h2>
                 <p>Games are an incredible way to add instant engagement <br>to your lesson plan. There are lots of free educational games online.</p>
-                <a href="#" class="btn btn-success">Get Started</a>
+                <a href="#" class="btn btn-success wow pulse" data-wow-iteration="infinite" data-wow-duration="1500ms">Get Started</a>
               </div>
             </div>
             <div class="col-lg-6">
@@ -71,62 +73,54 @@
           </div>
         </div>
       </div>
-    <!-- Banner end -->
+      <!-- Banner end -->
     </header>
-<!-- Header end -->
-
-<!-- Feature-section starts here -->
-    <section class="feature">
+    <!-- Header end -->
+    <!-- Feature-section starts here -->
+    <section class="feature" id="books">
       <div class="container">
         <div class="row">
-
-          <div class="col-lg-3">
+          <div class="col-lg-3 animate__animated animate__backInLeft animate__delay-0.5s">
             <div class="inner-feature">
               <img src="images/1.png" alt="">
               <h4>1500+ Topic</h4>
               <p>Learn Anythings</p>
             </div>
           </div>
-
-          <div class="col-lg-3">
+          <div class="col-lg-3 animate__animated animate__backInDown animate__delay-0.5s">
             <div class="inner-feature">
               <img src="images/2.png" alt="">
               <h4>1800+ Students</h4>
               <p>Learn Anythings</p>
             </div>
           </div>
-
-          <div class="col-lg-3">
+          <div class="col-lg-3 animate__animated animate__backInUp animate__delay-0.5s">
             <div class="inner-feature">
               <img src="images/3.png" alt="">
               <h4>9K+ Test Token</h4>
               <p>Learn Anythings</p>
             </div>
           </div>
-
-          <div class="col-lg-3">
+          <div class="col-lg-3 animate__animated animate__backInRight animate__delay-0.5s">
             <div class="inner-feature">
               <img src="images/4.png" alt="">
               <h4>2000+ Student</h4>
               <p>Learn Anythings</p>
             </div>
           </div>
-
         </div>
       </div>
     </section>
-<!-- Feature-section end -->
-
-<!-- online-course section starts here -->
-    <section class="online-course">
+    <!-- Feature-section end -->
+    <!-- online-course section starts here -->
+    <section class="online-course" id="courses">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12">
+          <div class="col-lg-12 animate__animated animate__backInDown animate__delay-1s">
             <h1>Online Courses</h1>
           </div>
         </div>
-
-        <div class="row">
+        <div class="row animate__animated animate__pulse animate__delay-1s">
           <div class="col-lg-4">
             <div class="card">
               <img src="images/c1.png" class="card-img-top" alt="...">
@@ -145,8 +139,7 @@
               </div>
             </div>
           </div>
-
-          <div class="col-lg-4">
+          <div class="col-lg-4 animate__animated animate__pulse animate__delay-1s">
             <div class="card">
               <img src="images/c2.png" class="card-img-top" alt="...">
               <div class="card-body">
@@ -164,8 +157,7 @@
               </div>
             </div>
           </div>
-
-          <div class="col-lg-4">
+          <div class="col-lg-4 animate__animated animate__pulse animate__delay-1s">
             <div class="card">
               <img src="images/c3.png" class="card-img-top" alt="...">
               <div class="card-body">
@@ -186,88 +178,88 @@
         </div>
       </div>
     </section>
-<!-- online-course section end -->
-
-<!-- testimonial section starts here  -->
-<section class="testimonial">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <h1>Testimonial</h1>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-lg-7 offset-lg-3">
+    <!-- online-course section end -->
+    <!-- testimonial section starts here  -->
+    <section class="testimonial" id="blogs">
+      <div class="container">
         <div class="row">
-          <div class="col-md-2">
-            <img src="images/t.png" alt="" class="img-fluid">
+          <div class="col-lg-12 wow fadeInDown" data-wow-duration="2s">
+            <h1>Testimonial</h1>
           </div>
-          <div class="col-md-10">
-            <p>There are many variations of passages of Lorem Ipsum available, but the 
-           majority have suffered alteration in some form, by injected humour, 
-           or randomised words which don't look even slightly believable.</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-7 offset-lg-3">
+            <div class="row">
+              <div class="col-md-2 wow fadeInLeft" data-wow-duration="2s">
+                <img src="images/t.png" alt="" class="img-fluid">
+              </div>
+              <div class="col-md-10 wow fadeInRight" data-wow-duration="2s">
+                <p>There are many variations of passages of Lorem Ipsum available, but the
+                  majority have suffered alteration in some form, by injected humour,
+                or randomised words which don't look even slightly believable.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <!-- testimonial section end -->
+    <!-- footer starts here -->
+    <footer class="footer" id="others">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <p class="inner-text">Millions of people of all ages and from around <br>
+            the world are improving their lives with us.</p>
+          </div>
+          <div class="col-lg-7">
+            <div class="row">
+              <div class="col-md-4">
+                <h4>Course</h4>
+                <ul class="widget">
+                  <li><a href="">Graphic Design</a></li>
+                  <li><a href="">Web design</a></li>
+                  <li><a href="">Business</a></li>
+                  <li><a href="">Marketing</a></li>
+                  <li><a href="">Engineering</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <h4>Terms</h4>
+                <ul class="widget">
+                  <li><a href="">Graphic Design</a></li>
+                  <li><a href="">Web design</a></li>
+                  <li><a href="">Business</a></li>
+                  <li><a href="">Marketing</a></li>
+                  <li><a href="">Engineering</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <h4>Useful Links</h4>
+                <ul class="widget">
+                  <li><a href="">Graphic Design</a></li>
+                  <li><a href="">Web design</a></li>
+                  <li><a href="">Business</a></li>
+                  <li><a href="">Marketing</a></li>
+                  <li><a href="">Engineering</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="copyright">Copyright &copy; 2020 www.com</p>
           </div>
         </div>
       </div>
-    </div>
-      
-  </div>
-</section>
-<!-- testimonial section end -->
-
-<!-- footer starts here -->
-<footer class="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-5">
-        <p class="inner-text">Millions of people of all ages and from around <br>
-the world are improving their lives with us.</p>
-      </div>
-      <div class="col-lg-7">
-        <div class="row">
-          <div class="col-md-4">
-            <h4>Course</h4>
-            <ul class="widget">
-              <li><a href="">Graphic Design</a></li>
-              <li><a href="">Web design</a></li>
-              <li><a href="">Business</a></li>
-              <li><a href="">Marketing</a></li>
-              <li><a href="">Engineering</a></li> 
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <h4>Terms</h4>
-            <ul class="widget">
-              <li><a href="">Graphic Design</a></li>
-              <li><a href="">Web design</a></li>
-              <li><a href="">Business</a></li>
-              <li><a href="">Marketing</a></li>
-              <li><a href="">Engineering</a></li> 
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <h4>Useful Links</h4>
-            <ul class="widget">
-              <li><a href="">Graphic Design</a></li>
-              <li><a href="">Web design</a></li>
-              <li><a href="">Business</a></li>
-              <li><a href="">Marketing</a></li>
-              <li><a href="">Engineering</a></li> 
-            </ul>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-lg-12">
-        <p class="copyright">Copyright &copy; 2020 www.com</p>
-      </div>
-    </div>
-  </div>
-</footer>
-<!-- footer end -->
+    </footer>
+    <!-- footer end -->
+    <!--wow jquery plugin linking here -->
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
   </body>
 </html>
