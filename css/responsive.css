@@ -1,0 +1,179 @@
+/* low resulation mobile phone ----- galaxy fold code start */
+@media (min-width: 279px) and (max-width: 319px) {
+/* small-device code start */
+  .inner-banner h2{
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .inner-banner p{
+    font-size: 12px;
+    margin: 15px 0px;
+  }
+  .inner-feature{
+    margin: 0px 0px 20px; 
+  }
+  .online-course .card{
+    margin: 0px 0px 20px;
+  }
+  .online-course h1{
+    font-size: 38px;
+  }
+  .testimonial{
+    padding: 0px 0px 20px;
+  }
+  .testimonial h1{
+    font-size: 38px;
+    margin: 0px 0px 40px;
+  }
+  .testimonial .img-fluid{
+    width:100px;
+    height: 100px;
+    margin-left: 81px;
+        margin-bottom: 26px;
+  }
+  .testimonial p{
+    text-align: justify;
+    text-indent: 30px;
+  }
+  .footer .inner-text{
+      text-align: center;
+  }
+  .footer h4{
+    text-align: center;
+        padding: 5px 0px;
+  }
+  .footer .widget li{
+    text-align: center;
+
+  }
+/* small-device code end */
+ }
+
+/* most of the smart phone devices code start */
+ @media (min-width: 320px) and (max-width: 480px) {
+	/* maximum device code start */
+  .inner-banner {
+    width: 100%;
+    padding: 40px 10px;
+}
+.inner-banner h2{
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .inner-banner p{
+    font-size: 12px;
+    margin: 15px 0px;
+  }
+  .feature .inner-feature {
+    width: 70%;
+    padding: 40px 0px;
+    text-align: center;
+    background: #F8FFFB;
+    border-radius: 15px;
+    margin: 20px 0px 0px 60px;
+  }
+  .inner-feature{
+    margin: 0px 0px 20px; 
+  }
+  .online-course .card{
+    margin: 0px 0px 20px;
+  }
+  .online-course h1{
+    font-size: 35px;
+  }
+  .testimonial{
+    padding: 0px 0px 20px;
+  }
+  .testimonial .offset-lg-3{
+    display: inline-block;
+  }
+  .testimonial h1{
+    font-size: 35px;
+    margin: 0px 0px 40px;
+  }
+  .testimonial .img-fluid{
+    width:100px;
+    height: 100px;
+    margin-left: 177px;
+    margin-bottom: 26px;
+  }
+  .testimonial p{
+    text-align: justify;
+    text-indent: 46px;
+    margin: 0px 10px;
+  }
+  .footer .inner-text{
+      text-align: center;
+  }
+  .footer h4{
+    text-align: center;
+        padding: 5px 0px;
+  }
+  .footer .widget li{
+    text-align: center;
+
+  }
+ /*maximum device code end*/
+ }
+ 
+ /* mobile phone and low resulation devices code start */
+  @media (min-width: 481px) and (max-width: 767px) {
+	/*481-767 device code start*/
+.inner-banner h2{
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .inner-banner p{
+    font-size: 12px;
+    margin: 15px 0px;
+  }
+  .inner-feature{
+    margin: 0px 0px 20px; 
+  }
+  .online-course .card{
+    margin: 0px 0px 20px;
+  }
+  .online-course h1{
+    font-size: 50px;
+  }
+  .testimonial{
+    padding: 0px 0px 20px;
+  }
+  .testimonial h1{
+    font-size: 50px;
+    margin: 0px 0px 40px;
+  }
+  .testimonial .img-fluid{
+        width: 120px;
+      height: 120px;
+      margin-left: 175px;
+      margin-bottom: 26px;
+  }
+  .testimonial p{
+    text-align: justify;
+    text-indent: 30px;
+  }
+  .footer .inner-text{
+      text-align: center;
+  }
+  .footer h4{
+    text-align: center;
+        padding: 5px 0px;
+  }
+  .footer .widget li{
+    text-align: center;
+
+  }
+/*481-767 device code end*/
+}
+ /* tablet, notebook devices code start */
+ @media (min-width: 768px) and (max-width: 1024px) {
+	/* tablet device code start*/
+.inner-text{
+  font-size: 24px;
+    line-height: 36px;
+    padding-bottom: 32px;
+    text-align: center;
+}
+ /*tablet device code end*/
+}
